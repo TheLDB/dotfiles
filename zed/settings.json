@@ -1,0 +1,107 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "ui_font_family": "JetBrains Mono",
+  "ui_font_fallbacks": ["FiraCode Nerd Font"],
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_fallbacks": ["FiraCode Nerd Font"],
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "light",
+    "light": "One Light",
+    "dark": "One Dark"
+  },
+  "inlay_hints": {
+    "enabled": false
+  },
+  "relative_line_numbers": true,
+  /// ------------ LIGHT MODE OVERRIDES ------------
+  /// ----------------------------------------------
+  /// ------------ LIGHT MODE OVERRIDES ------------
+  "experimental.theme_overrides": {
+    "element.background": "#FFFFFF",
+    "surface.background": "#FFFFFF",
+    "background.appearance": "blurred",
+    // "background": "#FFA50005",
+    "editor.background": "#FFFFFFCC",
+    "toolbar.background": "#FFFFFFCC",
+    "title_bar.background": "#FFFFFFCC",
+    "panel.background": "#FFFFFFCC",
+
+    "panel.indent_guide": "#FFA50040",
+    "panel.focused_border": "#FFA50060",
+
+    "editor.gutter.background": "#FFFFFFCC",
+    "tab_bar.background": "#FFFFFFCC",
+
+    "tab.active_background": "#FFA50030",
+    "tab.inactive_background": "#FFFFFF00",
+    "status_bar.background": "#FFA500DD",
+    // "text": "#FFFFFF",
+
+    "scrollbar.thumb.background": "#FFA50030",
+    "scrollbar.thumb.hover_background": "#FFA50050",
+
+    "editor.active_line.background": "#FFA50008",
+    "editor.highlighted_line.background": "#FFA50010",
+
+    "elevated_surface.background": "#FFFFFF",
+
+    "element.hover": "#FFA50010",
+
+    "editor.document_highlight.read_background": "#FFA50005",
+    "editor.document_highlight.write_background": "#FFA50005",
+    "editor.document_highlight.bracket_background": "#FFA50005"
+  },
+  /// ------------ END LIGHT MODE OVERRIDES ------------
+  /// --------------------------------------------------
+  /// ------------ END LIGHT MODE OVERRIDES ------------
+
+  /// ------------ DARK MODE OVERRIDES ------------
+  /// ---------------------------------------------
+  // ------------ DARK MODE OVERRIDES ------------
+  // "experimental.theme_overrides": {
+  //   "element.background": "#FFFFFF",
+  //   "surface.background": "#FFFFFF",
+  //   "background.appearance": "blurred",
+  //   "background": "#FFA50008",
+  //   "editor.background": "#000000BF",
+  //   "toolbar.background": "#000000BF",
+  //   "title_bar.background": "#000000BF",
+  //   "panel.background": "#000000BF",
+  //   "panel.indent_guide": "#FFA50050",
+  //   "panel.focused_border": "#FFA50050",
+  //   "editor.gutter.background": "#000000BF",
+  //   "tab_bar.background": "#000000BF",
+  //   "tab.active_background": "#FFA50050",
+  //   "tab.inactive_background": "#00000000",
+  //   "status_bar.background": "#FFA50050",
+  //   "scrollbar.thumb.background": "#FFA50050",
+  //   "scrollbar.thumb.hover_background": "#FFA50080",
+
+  //   "editor.active_line.background": "#FFA50010",
+  //   "editor.highlighted_line.background": "#FFA50020",
+
+  //   "elevated_surface.background": "#000000",
+
+  //   "element.hover": "#FFA50020",
+
+  //   "editor.document_highlight.read_background": "#FFFFFF10",
+  //   "editor.document_highlight.write_background": "#FFFFFF10",
+  //   "editor.document_highlight.bracket_background": "#FFFFFF10"
+  // },
+  /// ------------ END DARK MODE OVERRIDES ------------
+  /// -------------------------------------------------
+  // ------------ END DARK MODE OVERRIDES -------------
+  "vim_mode": true,
+  "vim": {
+    "use_system_clipboard": "on_yank"
+  }
+}

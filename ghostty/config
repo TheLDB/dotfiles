@@ -1,0 +1,23 @@
+theme = light:alabaster,dark:peppermint
+keybind = global:super+shift+i=toggle_quick_terminal
+# new split
+keybind = ctrl+l=new_split:right
+keybind = ctrl+h=new_split:left
+keybind = ctrl+j=new_split:down
+keybind = ctrl+k=new_split:up
+# goto split
+keybind = super+shift+l=goto_split:right
+keybind = super+shift+h=goto_split:left
+keybind = super+shift+j=goto_split:bottom
+keybind = super+shift+k=goto_split:top
+# unfocused split customization
+unfocused-split-fill = 000000
+unfocused-split-opacity = 0.25
+
+# fonts
+font-family = "JetBrains Mono"
+
+# background
+background-opacity = 0.80
+background-blur = true
+keybind = shift+enter=text:\n
