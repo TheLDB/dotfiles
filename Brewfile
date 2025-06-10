@@ -30,6 +30,7 @@ cask "signal"
 cask "nikitabobko/tap/aerospace"
 cask "chatgpt"
 cask "visual-studio-code"
+cask "xcodes"
 
 # Fonts
 cask "font-jetbrains-mono"
